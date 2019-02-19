@@ -16,5 +16,4 @@ puts "store1 = #{@store1.name}"
 
 @store2 = Store.second
 puts "store2 = #{@store2.name}"
-# i = Image.find :first
 
