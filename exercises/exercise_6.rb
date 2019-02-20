@@ -21,3 +21,6 @@ puts "store2 = #{store2.name}"
 store2.employees.create(first_name: "Big", last_name: "Boss", hourly_rate: 200)
 store2.employees.create(first_name: "The", last_name: "Owner", hourly_rate: 500)
 store2.employees.create(first_name: "Tony", last_name: "Kieling", hourly_rate: 60)
+
+
+# burnaby = Store.create name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true
